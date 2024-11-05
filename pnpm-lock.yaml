@@ -93,6 +93,9 @@ importers:
       rollup-plugin-visualizer:
         specifier: ^5.12.0
         version: 5.12.0(rollup@4.12.0)
+      slash:
+        specifier: ^5.1.0
+        version: 5.1.0
       svg-outline-stroke:
         specifier: 1.3.1
         version: 1.3.1
@@ -123,25 +126,25 @@ importers:
   packages/icons-eps:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
 
   packages/icons-pdf:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
 
   packages/icons-png:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
 
   packages/icons-preact:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       '@preact/preset-vite':
@@ -157,7 +160,7 @@ importers:
   packages/icons-react:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       '@testing-library/react':
@@ -182,7 +185,7 @@ importers:
   packages/icons-react-native:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       '@testing-library/react':
@@ -213,7 +216,7 @@ importers:
   packages/icons-solidjs:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       '@solidjs/testing-library':
@@ -232,13 +235,13 @@ importers:
   packages/icons-sprite:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
 
   packages/icons-svelte:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       '@sveltejs/package':
@@ -266,7 +269,7 @@ importers:
   packages/icons-vue:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       '@testing-library/vue':
@@ -288,7 +291,7 @@ importers:
   packages/icons-webfont:
     dependencies:
       '@tabler/icons':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../icons
     devDependencies:
       sass:
@@ -301,7 +304,7 @@ importers:
   test/test-preact:
     dependencies:
       '@tabler/icons-preact':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../../packages/icons-preact
       preact:
         specifier: ^10.19.6
@@ -314,7 +317,7 @@ importers:
   test/test-react:
     dependencies:
       '@tabler/icons-react':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../../packages/icons-react
       react:
         specifier: ^18.2.0
@@ -336,7 +339,7 @@ importers:
   test/test-svelte:
     dependencies:
       '@tabler/icons-svelte':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../../packages/icons-svelte
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
@@ -358,7 +361,7 @@ importers:
   test/test-vue:
     dependencies:
       '@tabler/icons-vue':
-        specifier: 3.5.0
+        specifier: 3.21.0
         version: link:../../packages/icons-vue
       vue:
         specifier: ^3.4.20
